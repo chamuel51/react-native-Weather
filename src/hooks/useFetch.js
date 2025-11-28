@@ -6,7 +6,7 @@ export default function useFetch(url) {
 
 	useEffect(() => {
 		getData();
-	}, []);
+	}, [url]);
 
 	const getData = async () => {
 		const URL = url;
